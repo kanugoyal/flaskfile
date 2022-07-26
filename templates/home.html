@@ -1,0 +1,6 @@
+{% extends "base.html" %}
+{% block title %}Static file{% endblock %}
+{% block content %}
+      <h1>CSS Applied</h1>
+      <image src="{{ url_for('static', filename='images/img.jpg')}}">
+{% endblock %}
